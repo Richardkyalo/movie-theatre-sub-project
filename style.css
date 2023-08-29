@@ -1,0 +1,75 @@
+.navbar {
+    background-color: #0a91ac;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f2eded;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #f5f0f0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #eee8e8;
+}
+
+.footer {
+    background-color: #555;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+.hero {
+    background-image: url('./uploads/black-panther-movie-wallpaper-preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #1bed0c;
+    color: #1cadb7;
+    text-shadow: 1px 1px #000;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #31f00a;
+    text-shadow: 1px 1px #000;
+}
+
+.hero button {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0b2ef0;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero button:hover {
+    background-color: #000;
+}
